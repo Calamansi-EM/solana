@@ -1,0 +1,215 @@
+.assistant-div {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  height: 160px;
+}
+
+.img-section {
+  background-color: #ffc542;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 160px;
+}
+
+.step-circle {
+  background-color: #0062ff;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.step-circle-gray {
+  background-color: #c4c4c4;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.back-span span {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.assistant-title {
+  color: #0062ff;
+  font-size: 20px;
+}
+
+.assistant-content {
+  font-size: 16px;
+}
+
+.assistant-div .line {
+  border: 1px solid black;
+}
+
+/* Default Container style */
+.connect-btn {
+  width: 200px;
+  height: 40px;
+  background-color: transparent !important;
+  color: #40df9f !important;
+  border: 1px solid #40df9f !important;
+  border-radius: 15px !important;
+}
+
+.connect-btn :hover {
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+}
+
+/* Card1 style */
+.which-product {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.call-product {
+  background-color: #ffe5e7;
+}
+
+.digital-product {
+  background-color: #edeafd;
+}
+
+.coin-title {
+  display: flex;
+  margin: auto;
+}
+
+.coin-title p {
+  color: #0062ff;
+  font-size: 28px;
+}
+
+/* chart */
+#center-center {
+  height: 300px;
+}
+
+/* Search style */
+#search-div {
+  max-height: 220px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+#search-div .checkbox-grid {
+  margin-top: -15px;
+  text-align: left;
+}
+
+.MuiFormControl-root label {
+  background-color: white;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl {
+  outline: none;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl select {
+  outline: none;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl fieldset {
+  border: none;
+}
+
+@media (max-width: 850px) {
+  #search-div {
+    max-height: 500px;
+  }
+
+  #search-div .dropdown-grid {
+    display: flex !important;
+  }
+
+  .img-section {
+    background-color: #ffc542;
+    border-radius: 20px;
+  }
+}
+
+/* Order style */
+.market-size-text-buy {
+  color: #3dd598;
+  font-size: 20px;
+  display: flex;
+}
+
+.market-size-text-sell {
+  color: #ff575f;
+  font-size: 20px;
+  display: flex;
+  margin-right: 70px;
+}
+
+/* Environment selector style */
+.env-btn {
+  width: 200px;
+  height: 40px;
+  background-color: transparent !important;
+  color: #ff575f !important;
+  border: 1px solid #ff575f !important;
+  border-radius: 15px !important;
+}
+
+.env-btn :hover {
+  color: #fff;
+}
+
+/* Order style */
+.MuiSlider-markLabel {
+  transform: translateX(-50%) translateY(-45px) !important;
+}
+
+@media (max-width: 700px) {
+  #menu-bar {
+    padding-bottom: 20px !important;
+  }
+}
+
+.dropdown-form {
+  margin-right: 20px;
+  width: 100%;
+  max-width: 230px;
+}

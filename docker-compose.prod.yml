@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  frontend:
+    container_name: exotic-frontend-prod
+    image: exotic-frontend-prod
+    build:
+      context: .
+      target: production
